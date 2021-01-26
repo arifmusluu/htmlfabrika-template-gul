@@ -1,0 +1,63 @@
+@mixin border-radius ( $value: 3px) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+@mixin box-shadow( $horiz: .5em, $vert: .5em, $blur: 0px, $spread: 0px, $color: #000000) {
+    -webkit-box-shadow: $horiz $vert $blur $spread $color;
+    -moz-box-shadow: $horiz $vert $blur $spread $color;
+    box-shadow: $horiz $vert $blur $spread $color;
+}
+
+@mixin flex($display, $align-items, $justify-content) {
+    display: $display;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin font($font-family, $font-size) {
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+@mixin opacity ( $value: 0.5) {
+    opacity: $value;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity= $value * 100)";
+    filter: alpha(opacity=$value * 100);
+    zoom: 1;
+    -moz-opacity: $value;
+}
+
+@mixin transition($transition) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin transform-origin ($xPos, $yPos) {
+    -webkit-transform-origin: $xPos $yPos;
+    -ms-transform-origin: $xPos $yPos;
+    -moz-transform-origin: $xPos $yPos;
+    -o-transform-origin: $xPos $yPos;
+    transform-origin: $xPos $yPos;
+}
+
+@mixin position($position, $left, $top, $right, $bottom) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
