@@ -1,4 +1,14 @@
 // Vendors
+@import "vendors/bootstrap4/bootstrap-grid.scss";
+@import "vendors/bootstrap4/bootstrap-reboot.scss";
+@import "vendors/bootstrap4/bootstrap.scss";
+@import "vendors/bootstrap5/bootstrap-grid.scss";
+@import "vendors/bootstrap5/bootstrap-reboot.scss";
+@import "vendors/bootstrap5/bootstrap-utilities.scss";
+@import "vendors/bootstrap5/bootstrap.scss";
+@import "vendors/select2/select2.scss";
+@import "vendors/formvalidator/form-validator.scss";
+@import "vendors/hamburgers/hamburgers.scss";
 @import "vendors/animate/animate";
 @import "vendors/slick/slick-theme.scss";
 @import "vendors/slick/slick.scss";
@@ -8,8 +18,8 @@
 // Utilities
 @import "utilities/variables";
 @import "utilities/mixins";
-@import "utilities/svg-sprite.scss";
-@import "utilities/png-sprite.scss";
+//@import "utilities/svg-sprite.scss";
+//@import "utilities/png-sprite.scss";
 // Layouts
 @import "layout/header";
 @import "layout/layout";
