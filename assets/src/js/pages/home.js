@@ -70,7 +70,7 @@ var _homePage = {
             _homeFifth.slick({
                 arrows: true,
                 autoplay: true,
-                autoplaySpeed: 8000,
+                autoplaySpeed: 7000,
                 cssEase: 'linear',
                 dots: false,
                 speed: 500,
